@@ -1,3 +1,27 @@
 *{
-    margin: 0;
+    margin: 0; padding: 0; box-sizing: border-box;
+
 }
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg,#55acee,#292f33 );
+    display: grid;
+    place-items: center;
+    & .tarjeta{
+        height: 400px;
+        width: 50%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 8px;
+        box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.863);
+    }
+
+}
+
